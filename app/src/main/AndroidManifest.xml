@@ -18,6 +18,9 @@
 
         <activity android:name=".activity.SimpleViewActivity"/>
         <activity android:name=".activity.FragmentViewPagerActivity"/>
+        <activity android:name=".activity.ImageViewDotViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
     </application>
 
 </manifest>
