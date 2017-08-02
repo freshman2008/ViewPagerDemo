@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.fragmentViewPagerButton:
-//                intent = new Intent(MainActivity.this, FragmentViewPagerActivity.class);
-//                startActivity(intent);
+                intent = new Intent(MainActivity.this, FragmentViewPagerActivity.class);
+                startActivity(intent);
                 break;
             case R.id.imageViewDotViewPager:
 //                intent = new Intent(MainActivity.this, ImageViewDotViewPagerActivity.class);
